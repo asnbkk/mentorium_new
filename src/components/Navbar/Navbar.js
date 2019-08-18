@@ -10,7 +10,7 @@ import Link from '../Link/Link';
 import SignUp from '../../pages/SignUp/SignUp';
 
 const navbar = props => {
-
+    
     let headerClasses = "toolbar";
     if (props.animation) {
         headerClasses = "toolbar scrolled";
@@ -29,7 +29,7 @@ const navbar = props => {
                     <div className="spacer"></div>
                     <div className="toolbar__navigation-items">
                         <ul>
-                            <li><a href="*">Профессии</a></li>
+                            <li><a href="/professions">Профессии</a></li>
                             <li><a href="*">Вузы</a></li>
                             <li><a href="/test">Тесты</a></li>
 

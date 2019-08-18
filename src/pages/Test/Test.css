@@ -14,7 +14,7 @@
 .test__content {
     display: grid;
     grid-template-rows: auto auto auto auto;
-    padding: 4.5rem 0;
+    padding: 3.5rem 0;
 }
 .test__content_title {
     font-size: 30px;

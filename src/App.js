@@ -9,6 +9,7 @@ import SignIn from './pages/SignIn/SignIn';
 import Universities from './pages/Universities/Universities';
 import University from './pages/University/University';
 import Test from './pages/Test/Test';
+import Professii from './pages/Professii/Professii';
 
 
 
@@ -33,6 +34,7 @@ function App() {
           <Route path="/universities" component={Universities} />
           <Route path="/university" component={University} />
           <Route path="/test" component={Test} />
+          <Route path ="/professions" component={Professii} />
         </Router>
       </AppStyle>
 

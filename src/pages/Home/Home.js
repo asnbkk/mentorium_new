@@ -35,7 +35,7 @@ export default class Home extends Component {
 
     componentDidMount() {
         window.addEventListener('scroll', () => {
-            const isTop = window.scrollY < 50;
+            const isTop = window.scrollY < 10;
             if (isTop !== true) {
                 this.setState({ scrolled: true});
             }

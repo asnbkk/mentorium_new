@@ -1,0 +1,31 @@
+.professii {
+    padding: 0 7rem;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto 1fr;
+}
+.professii__header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 120px;
+}
+.professii__header_content {
+    display: grid;
+    grid-template-rows: auto 1fr 1fr;
+}
+.professii__header_content__title {
+    font-size: 30px;
+    color: #102a51;
+}
+
+.spacer {
+    height: 7rem;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding: 0 10rem;
+}
+
+.professii__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
