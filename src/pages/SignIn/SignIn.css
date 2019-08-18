@@ -1,0 +1,27 @@
+.sign-in {
+    height: 100vh;
+    display: grid;
+}
+.sign-in__content {
+    padding: 0 7rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    grid-template-rows: auto 1fr;
+}
+.sign-in__content_logo {
+    display: grid;
+    justify-content: center;
+    grid-column: 1 / -1;
+}
+.sign-in__content_logo a:hover {
+    opacity: 0.3;
+}
+.sign-in__content_image {
+
+}
+.sign-in__content_card {
+    display: grid;
+    align-items: center;
+    padding: 0 5rem 0 0;
+}   
