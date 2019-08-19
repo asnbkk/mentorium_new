@@ -3,25 +3,17 @@ import React from 'react'
 import './Footer.css';
 import  { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-import Image from '../Image/Image'
-
-import Logo from '../../assets/mentorium-logo.png'
-
 const footer = props => (
   <div className="footer">
     <p></p>
     <div className="footer__content">
-      <div className="footer__content_social">
-        
-        <div className="footer__content_social__icons">
-          Следи за новостями
+      <div className="footer__content_keep">
+          Свяжитесь с нами
           <ul>
-            <li><a href="*"><FontAwesomeIcon size='lg' icon="bars"/></a></li>
-            <li><a href="*"><FontAwesomeIcon size='lg' icon="bars"/></a></li>
-            <li><a href="*"><FontAwesomeIcon size='lg' icon="bars"/></a></li>
+            <li>mentorium@gmail.com</li>
+            {/* <li></li> */}
           </ul>
         </div>
-      </div>
       <p></p>
       <div className="footer__content_text">
       Рано или поздно каждый школьник сталкивается с проблемой выбора будущей специальности и места обучения.

@@ -11,32 +11,18 @@
     height: 100%;
     grid-template-columns: auto 150px 1.5fr minmax(100px, 150px) auto;
 }
-.footer__content_social a:hover,
 .footer__content_nav a:hover,
 .footer__content_info a:hover {
     transition: 0.3s all;
     color: white;
 }
-.footer__content_social {
-    display: grid;
-    grid-template-rows: auto 1fr;
+.footer__content_keep {
+    color: #7184a0;
     font-size: 15px;
 }
-.footer__content_social__icons {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    color: #7184a0;
-    grid-gap: 10px;
-    transition: 0.3s all;
-}
-.footer__content_social__icons li {
+.footer__content_keep ul {
     list-style: none;
-    display: inline;
-}
-.footer__content_social__icons a {
-    color: #7184a0;
-    padding: 0 2rem 0 0;
-    transition: 0.3s all;
+    padding: .7rem 0 0 0;
 }
 .footer__content_text {
     color: #fff;
