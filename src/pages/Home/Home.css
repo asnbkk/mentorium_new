@@ -149,6 +149,26 @@
     display: grid;
     grid-gap: 10px;
 }
+.test-section__card_offer__left a{
+    padding: 0 2rem;
+    justify-content: center;
+    background: #F58C28;
+    color: white;
+    border-radius: 10px;
+    height: 40px;
+    display: grid;
+    font-weight: 100;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    transition: 0.3s all;
+}
+.test-section__card_offer__left a:hover {
+    opacity: 0.8;
+}
+.test-section__card_offer__left a:active {
+    opacity: 0.6;
+}
 
 .prof {
     width: 100%;

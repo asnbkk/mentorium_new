@@ -5,6 +5,9 @@ import './Professii.css'
 import Navbar from '../../components/Navbar/Navbar'
 import Card from '../../components/Card/Card'
 import Footer from '../../components/Footer/Footer'
+import AutoCompleteText from '../../components/AutoCompleteText/AutoCompleteText'
+
+import Countries from '../../components/AutoCompleteText/Countries'
 
 export default class Professii extends Component {
 
@@ -40,7 +43,9 @@ export default class Professii extends Component {
                     <div className="professii__header">
                         <div className="professii__header_content">
                             <div className="professii__header_content__title">Профессии</div>
-                            <div className="professii__header_content__search">seacrch</div>
+                            <div className="professii__header_content__search">
+                                <AutoCompleteText items={Countries}/>
+                            </div>
                             <div className="professii__header_content__offer">
                                 <Card>
                                     <div className="professii__header_content__offer_card">

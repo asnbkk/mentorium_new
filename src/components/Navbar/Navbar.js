@@ -10,7 +10,7 @@ import Link from '../Link/Link';
 import SignUp from '../../pages/SignUp/SignUp';
 
 const navbar = props => {
-    
+
     let headerClasses = "toolbar";
     if (props.animation) {
         headerClasses = "toolbar scrolled";
@@ -22,9 +22,9 @@ const navbar = props => {
                     <div className="toolbar__toggle-button">
                         <DrawerToggleButton click={props.drawerClickHandler} />
                     </div>
-                    <Image className="toolbar__logo-image" height="60px" src={Logo} navbar />
+                    <a href="/"><Image className="toolbar__logo-image" height="60px" src={Logo} navbar /></a>
                     <div className="toolbar__logo">
-                        <a href="*">mentorium</a>
+                        <a href="/">mentorium</a>
                     </div>
                     <div className="spacer"></div>
                     <div className="toolbar__navigation-items">

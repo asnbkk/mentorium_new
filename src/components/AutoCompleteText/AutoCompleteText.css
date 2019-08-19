@@ -1,0 +1,58 @@
+.autoCompleteText {
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+.autoCompleteText__input {
+    width: 100%;
+    border: none;
+    height: 37px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: 100;
+    outline: none;
+    border-radius: 15px;
+    padding: 0 0 0 0.5rem;
+}
+.autoCompleteText__button {
+    display: grid;
+    align-items: center;
+}
+.autoCompleteText__button a {
+    padding: 0 2rem;
+    background: #102a51;;
+    color: white;
+    border-radius: 10px;
+    height: 40px;
+    display: grid;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    transition: 0.3s all;
+}
+.autoCompleteText__button a:hover {
+    opacity: 0.9;
+}
+.autoCompleteText__button a:active {
+    opacity: 0.8;
+}
+.autoCompleteText__suggestions {
+    display: grid;
+    grid-column: 1 / -1;
+}
+.autoCompleteText ul {
+    list-style: none;
+    text-align: left;
+}
+.autoCompleteText li {
+    padding: 0.7rem 0 0.7rem 0;
+    cursor: pointer;
+}
+.autoCompleteText_link  {
+    padding: 0 0 0 0.5rem;
+}
+.autoCompleteText li:hover {
+    background: rgba(0, 0, 0, 0.1);
+}

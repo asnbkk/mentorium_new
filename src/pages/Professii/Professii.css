@@ -17,6 +17,11 @@
     font-size: 30px;
     color: #102a51;
 }
+.professii__header_content__search {
+    padding: 2rem 0;
+}
+.professii__header_content__offer {
+}
 
 .spacer {
     height: 7rem;

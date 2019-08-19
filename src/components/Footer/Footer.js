@@ -29,9 +29,9 @@ const footer = props => (
       </div>
       <div className="footer__content_nav">
         <ul>
-          <li><a href="*">Профессии</a></li>
+          <li><a href="/professii">Профессии</a></li>
           <li><a href="*">Вузы</a></li>
-          <li><a href="*">Тесты</a></li>
+          <li><a href="/test">Тесты</a></li>
         </ul>
       </div>
       <div className="footer__content_info">

@@ -163,7 +163,7 @@ export default class Home extends Component {
                             <div className="test-section__card_offer">
                                 <div className="test-section__card_offer__left">
                                     Интересно? Тогда, предлагаем Вам пройти комплекс профориентационных тестов!
-                                    <Button input>Пройти тест</Button>
+                                    <a href="/test">Пройти тест</a>
                                 </div>
                                 <div className="test-section__card_offer__right"></div>
                             </div>
