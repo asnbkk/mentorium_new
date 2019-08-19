@@ -64,11 +64,15 @@ export default class Professii extends Component {
                     <div className="professii__content">
                         <div className="professii__content_list">
                             Категории профессий
-                            <Card></Card>
+                            <Card>
+                                <div className="professii__content_list__card"></div>
+                            </Card>
                         </div>
                         <div className="professii__content_new">
                             Недавно обновленное
-                            <Card></Card>
+                            <Card>
+                                <div className="professii__content_new__card"></div>
+                            </Card>
                         </div>
                     </div>
                 </div>

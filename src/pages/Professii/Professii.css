@@ -46,3 +46,19 @@
     grid-template-columns: 1fr 1fr;
     grid-gap: 40px;
 }
+.professii__content_list {
+    font-size: 20px;
+    color: #102a51;
+    padding: 0 0 2rem 0;
+}
+.professii__content_list__card {
+    height: 30vh;
+}
+.professii__content_new {
+    font-size: 20px;
+    color: #102a51;
+    padding: 0 0 2rem 0;
+}
+.professii__content_new__card {
+    height: 30vh;
+}
