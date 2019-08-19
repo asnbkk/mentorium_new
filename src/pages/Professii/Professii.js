@@ -46,17 +46,19 @@ export default class Professii extends Component {
                             <div className="professii__header_content__search">
                                 <AutoCompleteText items={Countries}/>
                             </div>
-                            <div className="professii__header_content__offer">
+                            
+                        </div>
+                        <div className="professii__header_content__right">
+                        <div className="professii__header_content__right_offer">
                                 <Card>
-                                    <div className="professii__header_content__offer_card">
-                                        <div className="professii__header_content_offer_card__title">Уже определился с профессией?</div>
-                                        <div className="professii__header_content_offer_card__list">
+                                    <div className="professii__header_content__right_offer_card">
+                                        <div className="professii__header_content__right_offer_card__title">Уже определился с профессией?</div>
+                                        <div className="professii__header_content__right_offer_card__list">
                                         </div>
                                     </div>
                                 </Card>
                             </div>
                         </div>
-                        <div className="professii__header_image"></div>
                     </div>
                     <div className="spacer"></div>
                     <div className="professii__content">

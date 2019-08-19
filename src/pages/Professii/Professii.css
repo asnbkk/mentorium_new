@@ -2,16 +2,17 @@
     padding: 0 7rem;
     height: 100%;
     display: grid;
-    grid-template-rows: 1fr auto 1fr;
+    grid-template-rows: 1fr auto auto;
 }
 .professii__header {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 3fr 2fr;
     margin-top: 120px;
+    grid-gap: 40px;
 }
 .professii__header_content {
     display: grid;
-    grid-template-rows: auto 1fr 1fr;
+    grid-template-rows: auto 1fr;
 }
 .professii__header_content__title {
     font-size: 30px;
@@ -20,7 +21,17 @@
 .professii__header_content__search {
     padding: 2rem 0;
 }
-.professii__header_content__offer {
+.professii__header_content__right {
+    padding: 4.2rem 0 0 0;
+}
+.professii__header_content__right_offer_card {
+    height: 30vh;
+    padding: 1rem;
+}
+.professii__header_content__right_offer_card__title {
+    color: #102a51;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .spacer {
@@ -33,4 +44,5 @@
 .professii__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
 }
