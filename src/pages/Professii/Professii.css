@@ -20,6 +20,8 @@
 }
 .professii__header_content__search {
     padding: 2rem 0;
+    position: absolute;
+    z-index: 10;
 }
 .professii__header_content__right {
     padding: 4.2rem 0 0 0;
