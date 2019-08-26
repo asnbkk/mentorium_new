@@ -45,8 +45,7 @@ export default class Professii extends Component {
                             <div className="professii__header_content__title">Профессии</div>
                             <div className="professii__header_content__search">
                                 <AutoCompleteText items={Countries}/>
-                            </div>
-                            
+                            </div>                        
                         </div>
                         <div className="professii__header_content__right">
                         <div className="professii__header_content__right_offer">

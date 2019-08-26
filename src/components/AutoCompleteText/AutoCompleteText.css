@@ -6,7 +6,7 @@
     grid-template-columns: 1fr auto;
 }
 .autoCompleteText__input {
-    width: 100%;
+    width: 400px;
     border: none;
     height: 37px;
     box-sizing: border-box;
@@ -46,6 +46,8 @@
 .autoCompleteText ul {
     list-style: none;
     text-align: left;
+    background: #fff;
+    border-radius: 15px;
 }
 .autoCompleteText li {
     padding: 0.7rem 0 0.7rem 0;

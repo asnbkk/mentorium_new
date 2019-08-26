@@ -6,13 +6,14 @@
 }
 .professii__header {
     display: grid;
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: 1fr 1fr;
     margin-top: 120px;
     grid-gap: 40px;
 }
 .professii__header_content {
     display: grid;
     grid-template-rows: auto 1fr;
+
 }
 .professii__header_content__title {
     font-size: 30px;
@@ -22,9 +23,11 @@
     padding: 2rem 0;
     position: absolute;
     z-index: 10;
+    display: grid;
+    margin-top: 20px;
 }
 .professii__header_content__right {
-    padding: 4.2rem 0 0 0;
+    margin-top: 53px;
 }
 .professii__header_content__right_offer_card {
     height: 30vh;
