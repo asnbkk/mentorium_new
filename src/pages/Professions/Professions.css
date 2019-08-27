@@ -3,7 +3,7 @@
     position: absolute;
 }
 .professions {
-    padding: 0 7rem;
+    padding: 0 10rem;
     height: 100%;
     display: grid;
     grid-template-rows: 1fr auto auto;

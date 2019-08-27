@@ -6,7 +6,7 @@
     grid-template-columns: 1fr auto;
 }
 .autoCompleteText__input {
-    width: 400px;
+    width: 300px;
     border: none;
     height: 37px;
     box-sizing: border-box;
