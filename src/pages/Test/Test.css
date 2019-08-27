@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: 3fr 2fr;
     grid-template-rows: auto 1fr;
-    padding: 0 7rem;
+    padding: 0 10rem;
     
 }
 .test__logo{

@@ -3,7 +3,7 @@
     display: grid;
 }
 .sign-up__content {
-    padding: 0 7rem;
+    padding: 0 10rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 100vh;

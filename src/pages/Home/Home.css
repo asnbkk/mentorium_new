@@ -6,7 +6,7 @@
     height: 100%;
 }
 .landing-page__content {
-    padding: 0 7rem;
+    padding: 0 10rem;
     display: grid;
     height: 100vh;
     grid-template-columns: 3fr 2fr;
@@ -44,7 +44,7 @@
 .spacer {
     height: 7rem;
     display: grid;
-    grid-template-columns: 1fr auto;
+    grid-template-columns: 1fr 2fr;
     padding: 0 10rem;
 }
 
@@ -58,7 +58,7 @@
 }
 .steps__content {
     height: 100%;
-    padding: 0 7rem;
+    padding: 0 10rem;
     display: grid;
     grid-template-rows: 70px auto;
     align-items: center;
@@ -97,7 +97,7 @@
 .sign-in-section {
     width: 100%;
     height: 100%;
-    padding: 0 7rem;
+    padding: 0 10rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -107,7 +107,7 @@
 }
 
 .test-section {
-    padding: 0 7rem;
+    padding: 0 10rem;
     height: 100vh;
     display: grid;
     align-items: center;
@@ -172,7 +172,7 @@
 
 .prof {
     width: 100%;
-    padding: 0 7rem;
+    padding: 0 10rem;
 }
 .prof__card {
     display: grid;
@@ -187,7 +187,7 @@
 }
 .prof__card_content {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 4fr 1fr;
     padding: 1.5rem 0;
     line-height: 22px;
     color: #7184a0;

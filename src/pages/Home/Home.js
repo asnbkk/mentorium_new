@@ -136,7 +136,7 @@ export default class Home extends Component {
                 <div className="spacer"></div>
                 <div className="sign-in-section">
                     <div className="sign-in-section__picture">
-                        <Image src={SignUpImg} height="500px"/>
+                        <Image src={SignUpImg} height="400px"/>
                     </div>
                     <div className="sign-in-section__card">
                         <Card>
@@ -173,7 +173,7 @@ export default class Home extends Component {
                 <div className="spacer">
                     <p></p>
                     <Image src={WelcomePic} height='500px' welcome></Image>
-                    </div>
+                </div>
                 <div className="prof">
                     <Card>
                         <div className="prof__card">

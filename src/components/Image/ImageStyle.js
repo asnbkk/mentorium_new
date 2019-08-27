@@ -22,6 +22,7 @@ const ImageStyle = styled.img`
     ${props => props.welcome &&
         `
         margin-top: -340px;
+        margin-right: 40px;
         `
     }
     ${props => props.navbar &&
