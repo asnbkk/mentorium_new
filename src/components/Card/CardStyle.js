@@ -14,6 +14,12 @@ const CardStyle = styled.div`
         box-shadow: none;
         `
     }
+
+    ${props => props.list &&
+        `
+        padding: 7px 0;
+        `
+    }
 `
 
 export default CardStyle;

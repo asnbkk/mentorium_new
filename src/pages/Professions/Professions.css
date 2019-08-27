@@ -1,3 +1,7 @@
+.navbar {
+    z-index: 20;
+    position: absolute;
+}
 .professions {
     padding: 0 7rem;
     height: 100%;
@@ -56,14 +60,60 @@
     color: #102a51;
     padding: 0 0 2rem 0;
 }
-.professions__content_list__card {
-    height: 30vh;
+.professions__content_list__title {
+    padding: 1rem 0;
+}
+.professions__content_list__card ul {
+    list-style: none;
+    display: grid;
+    padding: .5rem 0;
+}
+.professions__content_list__card li{
+    height: 2rem;
+    display: grid;
+    align-items: center;
+    padding: 0 0 0 0.5rem;
+}
+.professions__content_list__card li:hover{
+    background: rgba(0, 0, 0, 0.05);
+    text-decoration: underline;
+}
+.professions__content_list__card a {
+    font-size: 16px;
+    color: #102a51;
+    display: flex;
+    flex: 1;
+    height: 2rem;
+    align-items: center;
 }
 .professions__content_new {
     font-size: 20px;
     color: #102a51;
     padding: 0 0 2rem 0;
 }
-.professions__content_new__card {
-    height: 30vh;
+.professions__content_new__title {
+    padding: 1rem 0;
+}
+.professions__content_new__card ul {
+    list-style: none;
+    display: grid;
+    padding: .5rem 0;
+}
+.professions__content_new__card li{
+    height: 2rem;
+    display: grid;
+    align-items: center;
+    padding: 0 0 0 0.5rem;
+}
+.professions__content_new__card li:hover{
+    background: rgba(0, 0, 0, 0.05);
+    text-decoration: underline;
+}
+.professions__content_new__card a {
+    font-size: 16px;
+    color: #102a51;
+    display: flex;
+    flex: 1;
+    height: 2rem;
+    align-items: center;
 }

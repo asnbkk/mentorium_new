@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import './professions.css'
+import './Professions.css'
 
 import Navbar from '../../components/Navbar/Navbar'
 import Card from '../../components/Card/Card'
@@ -38,7 +38,9 @@ export default class professions extends Component {
     render () {
         return (
             <div>
-                <Navbar animation={this.state.scrolled} />
+                <div className="navbar">
+                    <Navbar animation={this.state.scrolled} />
+                </div>
                 <div className="professions">
                     <div className="professions__header">
                         <div className="professions__header_content">
@@ -62,17 +64,32 @@ export default class professions extends Component {
                     <div className="spacer"></div>
                     <div className="professions__content">
                         <div className="professions__content_list">
-                            <div className="professions__content_list"></div>
-                            <Card>
+                            <div className="professions__content_list__title">
+                                Категории профессии
+                            </div>
+                            <Card list>                                
                                 <div className="professions__content_list__card">
-                                    
+                                    <ul>
+                                        <li><a href="*">Программист</a></li>
+                                        <li><a href="*">Архитектор</a></li>
+                                        <li><a href="*">Повар</a></li>
+                                    </ul>
                                 </div>
                             </Card>
                         </div>
                         <div className="professions__content_new">
-                            Недавно обновленное
-                            <Card>
-                                <div className="professions__content_new__card"></div>
+                            <div className="professions__content_new__title">
+                                Недавно обновлено
+                            </div>
+                            <Card list>
+                                <div className="professions__content_new__card">
+                                    <ul>
+                                        <li><a href="*">link</a></li>
+                                        <li><a href="*">link</a></li>
+                                        <li><a href="*">link</a></li>
+                                        <li><a href="*">link</a></li>
+                                    </ul>
+                                </div>
                             </Card>
                         </div>
                     </div>

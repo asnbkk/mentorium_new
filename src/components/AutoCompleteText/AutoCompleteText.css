@@ -48,6 +48,7 @@
     text-align: left;
     background: #fff;
     border-radius: 15px;
+    padding: .5rem 0;
 }
 .autoCompleteText li {
     padding: 0.7rem 0 0.7rem 0;

@@ -6,6 +6,7 @@ import CardStyle from './CardStyle.js'
 Card.propTypes = {
     children: PropTypes.node,
     steps: PropTypes,
+    list: PropTypes,
 }
 
 Card.defaultProps = {
@@ -13,11 +14,11 @@ Card.defaultProps = {
 }
 
 export default function Card({
-    children, steps
+    children, steps, list
 }) {
 
   return (
-    <CardStyle steps={steps}>
+    <CardStyle steps={steps} list={list}>
         { children }
     </CardStyle>
   );
