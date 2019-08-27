@@ -1,39 +1,39 @@
-.professii {
+.professions {
     padding: 0 7rem;
     height: 100%;
     display: grid;
     grid-template-rows: 1fr auto auto;
 }
-.professii__header {
+.professions__header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 120px;
     grid-gap: 40px;
 }
-.professii__header_content {
+.professions__header_content {
     display: grid;
     grid-template-rows: auto 1fr;
 
 }
-.professii__header_content__title {
+.professions__header_content__title {
     font-size: 30px;
     color: #102a51;
 }
-.professii__header_content__search {
+.professions__header_content__search {
     padding: 2rem 0;
     position: absolute;
     z-index: 10;
     display: grid;
     margin-top: 20px;
 }
-.professii__header_content__right {
+.professions__header_content__right {
     margin-top: 53px;
 }
-.professii__header_content__right_offer_card {
+.professions__header_content__right_offer_card {
     height: 30vh;
     padding: 1rem;
 }
-.professii__header_content__right_offer_card__title {
+.professions__header_content__right_offer_card__title {
     color: #102a51;
     font-size: 16px;
     font-weight: bold;
@@ -46,24 +46,24 @@
     padding: 0 10rem;
 }
 
-.professii__content {
+.professions__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 40px;
+    grid-gap: 7rem;
 }
-.professii__content_list {
+.professions__content_list {
     font-size: 20px;
     color: #102a51;
     padding: 0 0 2rem 0;
 }
-.professii__content_list__card {
+.professions__content_list__card {
     height: 30vh;
 }
-.professii__content_new {
+.professions__content_new {
     font-size: 20px;
     color: #102a51;
     padding: 0 0 2rem 0;
 }
-.professii__content_new__card {
+.professions__content_new__card {
     height: 30vh;
 }

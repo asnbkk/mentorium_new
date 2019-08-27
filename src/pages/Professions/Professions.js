@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import './Professii.css'
+import './professions.css'
 
 import Navbar from '../../components/Navbar/Navbar'
 import Card from '../../components/Card/Card'
@@ -9,7 +9,7 @@ import AutoCompleteText from '../../components/AutoCompleteText/AutoCompleteText
 
 import Countries from '../../components/AutoCompleteText/Countries'
 
-export default class Professii extends Component {
+export default class professions extends Component {
 
     constructor() {
         super();
@@ -39,20 +39,20 @@ export default class Professii extends Component {
         return (
             <div>
                 <Navbar animation={this.state.scrolled} />
-                <div className="professii">
-                    <div className="professii__header">
-                        <div className="professii__header_content">
-                            <div className="professii__header_content__title">Профессии</div>
-                            <div className="professii__header_content__search">
+                <div className="professions">
+                    <div className="professions__header">
+                        <div className="professions__header_content">
+                            <div className="professions__header_content__title">Профессии</div>
+                            <div className="professions__header_content__search">
                                 <AutoCompleteText items={Countries}/>
                             </div>                        
                         </div>
-                        <div className="professii__header_content__right">
-                        <div className="professii__header_content__right_offer">
+                        <div className="professions__header_content__right">
+                        <div className="professions__header_content__right_offer">
                                 <Card>
-                                    <div className="professii__header_content__right_offer_card">
-                                        <div className="professii__header_content__right_offer_card__title">Уже определился с профессией?</div>
-                                        <div className="professii__header_content__right_offer_card__list">
+                                    <div className="professions__header_content__right_offer_card">
+                                        <div className="professions__header_content__right_offer_card__title">Уже определился с профессией?</div>
+                                        <div className="professions__header_content__right_offer_card__list">
                                         </div>
                                     </div>
                                 </Card>
@@ -60,17 +60,19 @@ export default class Professii extends Component {
                         </div>
                     </div>
                     <div className="spacer"></div>
-                    <div className="professii__content">
-                        <div className="professii__content_list">
-                            Категории профессий
+                    <div className="professions__content">
+                        <div className="professions__content_list">
+                            <div className="professions__content_list"></div>
                             <Card>
-                                <div className="professii__content_list__card"></div>
+                                <div className="professions__content_list__card">
+                                    
+                                </div>
                             </Card>
                         </div>
-                        <div className="professii__content_new">
+                        <div className="professions__content_new">
                             Недавно обновленное
                             <Card>
-                                <div className="professii__content_new__card"></div>
+                                <div className="professions__content_new__card"></div>
                             </Card>
                         </div>
                     </div>
