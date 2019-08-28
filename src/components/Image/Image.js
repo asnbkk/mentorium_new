@@ -13,7 +13,8 @@ Image.propTypes = {
     withFilter: PropTypes.bool,
     withBrightFilter: PropTypes.bool,
     welcome: PropTypes.bool,
-    navbar: PropTypes.bool
+    navbar: PropTypes.bool,
+    professionHeader: PropTypes.bool,
 }
 
 Image.defaultProps = {
@@ -21,13 +22,14 @@ Image.defaultProps = {
 }
 
 function Image({
-    children, size, src, borderRadius, width, height, withFilter, withBrightFilter, welcome,navbar
+    children, size, src, borderRadius, width, height, withFilter, withBrightFilter, welcome, navbar,
+    professionHeader,
 }) {
 
   return (
     <ImageStyle withFilter={withFilter} withBrightFilter={withBrightFilter}
      height={height} width={width} src={src} size={size} borderRadius={borderRadius}
-     welcome={welcome} navbar={navbar}>
+     welcome={welcome} navbar={navbar} professionHeader={professionHeader}>
         { children }
     </ImageStyle>
   );

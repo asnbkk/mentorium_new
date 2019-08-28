@@ -14,9 +14,7 @@
     justify-content: center;
     grid-column: 1 / -1;
 }
-.sign-in__content_logo a:hover {
-    opacity: 0.3;
-}
+
 .sign-in__content_image {
 
 }

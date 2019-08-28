@@ -11,13 +11,18 @@ import SignUp from '../../pages/SignUp/SignUp';
 
 const navbar = props => {
 
-    let headerClasses = "toolbar";
+    let headerScroll = "toolbar";
     if (props.animation) {
-        headerClasses = "toolbar scrolled";
+        headerScroll = "toolbar scrolled";
+    }
+
+    let toolbarNavigationItems = "toolbar__navigation-items";
+    if (props.white) {
+        toolbarNavigationItems = "toolbar__navigation-items_white";
     }
 
         return (
-            <header className={headerClasses}>
+            <header className={headerScroll}>
                 <nav className="toolbar__navigation">
                     <div className="toolbar__toggle-button">
                         <DrawerToggleButton click={props.drawerClickHandler} />
@@ -27,7 +32,7 @@ const navbar = props => {
                         <a href="/">mentorium</a>
                     </div>
                     <div className="spacer"></div>
-                    <div className="toolbar__navigation-items">
+                    <div className={toolbarNavigationItems}>
                         <ul>
                             <li><a href="/professions">Профессии</a></li>
                             <li><a href="*">Вузы</a></li>

@@ -6,10 +6,10 @@ import Menu from "./components/Menu/Menu"
 import Home from './pages/Home/Home.js';
 import SignUp from './pages/SignUp/SignUp';
 import SignIn from './pages/SignIn/SignIn';
-import Universities from './pages/Universities/Universities';
-import University from './pages/University/University';
 import Test from './pages/Test/Test';
 import Professions from './pages/Professions/Professions';
+import University from './pages/University/University';
+import Profession from './pages/Profession/Profession';
 
 
 
@@ -31,10 +31,11 @@ function App() {
           <Route path="/" exact component={Home} />
           <Route path="/sign-up" component={SignUp} />
           <Route path="/sign-in" component={SignIn} />
-          <Route path="/universities" component={Universities} />
+          {/* <Route path="/universities" component={Universities} /> */}
           <Route path="/university" component={University} />
           <Route path="/test" component={Test} />
           <Route path ="/professions" component={Professions} />
+          <Route path ="/profession" component={Profession} />
         </Router>
       </AppStyle>
 

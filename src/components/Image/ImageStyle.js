@@ -25,11 +25,21 @@ const ImageStyle = styled.img`
         margin-right: 40px;
         `
     }
+
     ${props => props.navbar &&
         `
         
         `
     }
+
+    ${props => props.professionHeader &&
+        `
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: -200px;
+        `
+    }
+
 `
 
 export default ImageStyle;

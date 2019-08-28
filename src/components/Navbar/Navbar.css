@@ -43,7 +43,18 @@
     grid-template-columns: auto auto;
     grid-gap: 2rem;
 }
+.toolbar__navigation-items_white {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 2rem;
+}
 .toolbar__navigation-items ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.toolbar__navigation-items_white ul {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -56,8 +67,19 @@
     align-items: center;
 }
 
+.toolbar__navigation-items_white li {
+    padding: 0 1.5rem;
+    display: grid;
+    align-items: center;
+}
+
 .toolbar__navigation-items ul a {
     color: #102a51;
+    text-decoration: none;
+}
+
+.toolbar__navigation-items_white ul a {
+    color: #fff;
     text-decoration: none;
 }
 

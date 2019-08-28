@@ -70,7 +70,7 @@ export default class professions extends Component {
                             <Card list>                                
                                 <div className="professions__content_list__card">
                                     <ul>
-                                        <li><a href="*">Программист</a></li>
+                                        <li><a href="/profession">Программист</a></li>
                                         <li><a href="*">Архитектор</a></li>
                                         <li><a href="*">Повар</a></li>
                                     </ul>
